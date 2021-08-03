@@ -1,4 +1,4 @@
-## maskRangeR in Wallace Subgroup 
+## maskRangeR in Wallace  
 
 [Video: maskRangeR demonstration in Wallace](https://youtu.be/uBbYqQLRirU)
 

@@ -1,6 +1,8 @@
 ## changeRangeR Multispecies Functions Testing Instructions
 
 **Instructions**
+Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md)
+
 1. In RStudio, run these lines of code:
 ```{r}
 library(wallace)
@@ -34,11 +36,11 @@ For the extent, we suggest that you project to the extent of Colombia (this is t
 8. Select the "Endemism" module. Review the module guidance tab. Select all three species you modeled and projected, and hit Run to view species endemism.
 
 
-**changeRangeR vignettes**:
+**For more information on how the changeRangeR package works outside of Wallace**:
 
-[Single species](https://drive.google.com/file/d/1-NbDIjI8b7sCjAvUcOTNBy4xijJi7BsC/view?usp=sharing)
+[Single species](pdf/singleSpeciesMetrics.pdf)
 
-[Multiple species](https://drive.google.com/file/d/1pK6huSbfjsITKDam0nFpzShhP4d7FXLX/view?usp=sharing)
+[Multiple species](pdf/BiodivMetrics.pdf)
 
 [Diversity metrics using sparse matrices](pdf/Diversity_Metrics_Using_Sparse_Matrices.pdf)
 

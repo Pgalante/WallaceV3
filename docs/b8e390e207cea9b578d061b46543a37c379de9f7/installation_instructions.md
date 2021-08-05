@@ -12,7 +12,7 @@ Now, you will need to tell RStudio where R lives. Open RStudio, go to Tools -> G
 **If you are a Windows user, please also install RTools from here - (*even if you have already installed R*)**<br>
 https://cran.r-project.org/bin/windows/Rtools/ (choose 64 bit unless you have a reason not to). And follow the steps under "Putting Rtools on the PATH".
 
-### **2. Beofre loading Wallace, update R and R packages:**
+### **2. Before loading Wallace, update R and R packages:**
 **Beginner R users**: Please update or install the latest version of R (v4.x) and update all packages (in RStudio, go to tools - check for package updates) before starting with the installation steps below. 
 
 **Advanced R users**: Update rgbif, paleobioDB, sf, and skip ahead to "Run the following lines in R" below

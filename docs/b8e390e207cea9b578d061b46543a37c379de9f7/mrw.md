@@ -1,8 +1,16 @@
-## maskRangeR in Wallace  
+## Mask in Wallace  
 
-[Video: maskRangeR demonstration in Wallace](https://youtu.be/uBbYqQLRirU)
+#### Overview
+The Mask function in Wallace allows users to...
 
-**Instructions for maskRangeR in Wallace**<br>
+
+
+Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)
+
+For more information about this component, please see our [video: maskRangeR demonstration in Wallace](https://youtu.be/uBbYqQLRirU)
+
+**Instructions**<br>
+
 1. In R studio, run these lines of code: 
 ```{r}
 library(wallace) 

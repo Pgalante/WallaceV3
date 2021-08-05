@@ -4,7 +4,10 @@
 The Alpha diversity component in Wallace allows for calculation of...
 
 
+
 Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)
+
+For more information about this component, please see our [demonstration video for multiple species analyses](https://youtu.be/eXqyctCFJ0U)
 
 
 **Instructions**

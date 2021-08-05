@@ -17,14 +17,20 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
     + [maskRangeR tutorial](https://cmerow.github.io/maskRangeR/maskRangeR_Tutorial.html)
 
 
+* #### **"Change RR" component (new)**
+  + ##### [Range changes through time testing instructions](crt.md)
+  + ##### Resources
+    + **changeRangeR**
+    + [Single species tutorial](pdf/singleSpeciesMetrics.pdf)
+
+
 * #### **"Alpha Div" component (new)**
   + ##### [Alpha diversity testing instructions](crr.md)
   + ##### Resources
     + **changeRangeR**:
-    + [Single species tutorial](pdf/singleSpeciesMetrics.pdf)
     + [Multiple species tutorial](pdf/BiodivMetrics.pdf)
     + [Diversity metrics using sparse matrices tutorial](pdf/Diversity_Metrics_Using_Sparse_Matrices.pdf)
-
+    
 
 * ### **Report bugs**
   + **Bug reporting**<br>

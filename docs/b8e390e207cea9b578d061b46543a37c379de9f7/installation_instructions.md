@@ -15,9 +15,9 @@ https://cran.r-project.org/bin/windows/Rtools/ (choose 64 bit unless you have a 
 ### **2. Before loading Wallace, update R and R packages:**
 **Beginner R users**: Please update or install the latest version of R (v4.x) and update all packages (in RStudio, go to tools - check for package updates) before starting with the installation steps below. 
 
-**Advanced R users**: Update rgbif, paleobioDB, sf, and skip ahead to "Run the following lines in R" below
+**Advanced R users**: Update rgbif, paleobioDB, sf.
 
-### Wallace v1.9 (bets testing of what will become v2!)
+### Wallace v1.9 (beta testing of what will become v2)
 #### Run the following lines in R:
 ```{r}
 #install the devtools package to help you install other things
@@ -32,9 +32,10 @@ library(wallace)
 run_wallace()
 ```
 
-### Wallace v2.x (beta testing of what will become v3!)
-#### Install all necessary packages in their development versions. Agree to update all packages on installation.
-**To install changeRangeR and maskRangeR (for new components)**
+### **To install changeRangeR and maskRangeR (for new components)**
+##### Wallace v2.x (beta testing of what will become v3)
+  + ##### A. Install all necessary packages in their development versions. Agree to update all packages on installation.
+
 ```{r}
 install.packages("devtools")
 devtools::install_github("cmerow/maskRangeR/maskRangeR", dependencies=TRUE)
@@ -59,12 +60,12 @@ devtools::install_github("https://github.com/andrepazv/changeRangeR/tree/paths_f
 library(changeRangeR)
 ```
 
-#### Install ENMeval
+  + #### B. Install ENMeval
 ```{r}
 install.packages("EMMeval")
 ```
 
-### Install the development version of Wallace
+  + #### C. Install the development version of Wallace
 ```{r}
 devtools::install_github("https://github.com/wallaceEcoMod/wallace/tree/biomodelos", dependencies = TRUE)
 # Open Wallace

@@ -1,7 +1,13 @@
-## changeRangeR Multispecies Functions Testing Instructions
+## Alpha diversity in Wallace Testing Instructions
+
+#### Overview
+The Alpha diversity component in Wallace allows for calculation of...
+
+
+Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)
+
 
 **Instructions**
-Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md)
 
 1. In RStudio, run these lines of code:
 ```{r}

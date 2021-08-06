@@ -1,8 +1,7 @@
 ### Range Change Through Time Testing instructions.
 
 #### OVerview 
-The Change RR component will help the user to...
-
+The Change RR component calculates several indicators relevant for conservation assessments. The user can get estimates of range size, AOO and EOO based on observation points and/or SDMs, percentages of overlap of species distribution with different user inputted categories (e.g, protected areas, mining) and estimates of range size changes in time given user inputted information (e.g. deforestation, ecological footprint).
 
 
 Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)

@@ -1,8 +1,7 @@
 ## Alpha diversity in Wallace Testing Instructions
 
 #### Overview
-The Alpha diversity component in Wallace allows for calculation of...
-
+The Alpha Div component allows users to calculate diversity indexes base don multiple species SDMs (inputted or created in Wallace). In this version those measures are species richness and species endemism. The module will be expanded to include other dimensions of diversity in particular phylogenetic diversity and phylogenetic endemism calculations. 
 
 
 Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)

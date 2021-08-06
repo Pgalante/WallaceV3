@@ -1,8 +1,7 @@
 ## Mask in Wallace  
 
 #### Overview
-The Mask function in Wallace allows users to...
-
+In these components you can post-process the SDM you made in Wallace or imported in the UserSDM component. Modules include the possibility of masking using remote sensing data, shapefiles or expert opinions and time matching between observations and remote sensing data.
 
 
 Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)

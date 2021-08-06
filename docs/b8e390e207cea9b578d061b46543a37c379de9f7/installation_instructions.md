@@ -17,21 +17,6 @@ https://cran.r-project.org/bin/windows/Rtools/ (choose 64 bit unless you have a 
 
 **Advanced R users**: Update rgbif, paleobioDB, sf.
 
-### Wallace v1.9 (beta testing of what will become v2)
-#### Run the following lines in R:
-```{r}
-#install the devtools package to help you install other things
-install.packages("devtools")
-library(devtools)
-#install ENMeval pakcage
-installpackages("ENMeval")
-# Install Wallace from github
-devtools::install_github("https://github.com/wallaceEcoMod/wallace/tree/multiSp")
-# Open Wallace
-library(wallace)
-run_wallace()
-```
-
 ### **To install changeRangeR and maskRangeR (for new components)**
 ##### Wallace v2.x (beta testing of what will become v3)
   + ##### A. Install all necessary packages in their development versions. Agree to update all packages on installation.
@@ -72,47 +57,6 @@ devtools::install_github("https://github.com/wallaceEcoMod/wallace/tree/biomodel
 library(wallace)
 run_wallace()
 ```
-
-##### What is new in this version (v1.9)? 
-[See this video for more information](https://www.youtube.com/watch?v=NRtKwtCansw)
-
-**1. Stop and start your work whenever you want**: This version allows you to save a session partway through the workflow and then restart it. Try this out via the "Save Session" tab if you think this feature is of interest (intermediate-to-advanced users).
-
-**2. Greater reproducibility regarding occurrence records**: As a step towards greater documentation and reproducibility in biodiversity informatics, this version of Wallace provides an option of querying GBIF and receiving a DOI for the data provided. If you are already a registered GBIF user, check the "Include Data Source Citations" option under the "Query Database (Present)" module of the **OccsData** component.
-
-**3. Cross-time projections**: If you will later be interested in projecting your models to estimates of future (or past) climate, try out the updated **Project** component. This version now has data from WorldClim and EcoClimate (which also has reconstructed data for the past). Make your original model with the same climatic data source that you would like to use for projecting across time periods.
-
-**4. Make models for multiple species in the same Wallace session**: This advancement supports two important other functionalities: comparisons of species in environmental space (See below) and the calculations of richness and endemism that we will see in the new R package changeRangeR. If you are interested in either of these, try making models for more than one species. To get the data to do this, in the **OccData** component, either run the query multiple times or do it once iwth scientific names separated by commas. Then, in later components use the pull-down menu in the top center of the interface to indicate the species with which you want to work.
-
-**5. Environmental space comparisons**: It may not be as directly linked to conservation as many of the other advances, but this version now has several modules in the **EnvSpace** component, which allows users to examine characteristics of environmental space across species, such as niche overlap. If this matches your research interests (for academic purposes, or to study invasive species, for example), try them out.
-
-**6. Redesigned R-markdown functionalities**: Because of the way this version of Wallace is redesigned, it now makes the documentation files in a new way (**Reproduce** component). In addition to making sure that you can download the documentation in ways readable to humans (like pdf), it would be helpful to the development team to have users download the executable RMD code and confirm that it runs successfully in R (intermediate-to-advanced users).
-
-##### **Summary of new features**
-- General - Several species in the same session
-- General - New download sub-tab at each component
-- General - Save and reload session
-- Occs - PaleobioDB - Fossil occs (New module!)
-- Occs - BIEN (New option!)
-- Occs - GBIF OccCite (New option!)
-- Occs - Delimitator and Separator (New option!)
-- Envs - EcoClimate (New module, including paleo reconstructions!)
-- General - Select variables with pickerInput
-- General - Batch option (to repeat decisions for other species)
-- Process Env - Draw polygon (New module!)
-- Environmental Space - NEW COMPONENT with various new modules
-- Model - maxnet and maxent.jar - Categorical variables (New option!)
-- Model - maxnet and maxent.jar - Parallel (New option!)
-- Vis - New bioclim plot
-- Vis - New maxent plots
-- Vis - mapPred - New threshold option
-- Proj - userProj - User specified rasters
-- Proj - user background extent (New Option!)
-- Proj - user-specified projection extent (New option!)
-- Proj - New Time - Ecolimate (New Option!)
-- RMD - New Structure 
-- Metadata - based on rangeModelMetadata package.
-
 
 ##### What is new in future v3.0?
 It incorporates several components for conservation analyses based on functionalities of the packages maskRangeR and changeRangeR.

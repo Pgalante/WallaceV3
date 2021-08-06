@@ -1,7 +1,7 @@
 ## Mask in Wallace  
 
 #### Overview
-In these components you can post-process the SDM you made in Wallace or imported in the UserSDM component. Modules include the possibility of masking using remote sensing data, shapefiles or expert opinions and time matching between observations and remote sensing data.
+The *Mask* tab allows users to post-process the SDM you made in Wallace, or imported in the UserSDM tab. Modules include the possibility of masking using remote sensing data, shapefiles or expert opinions and time matching between observations and remote sensing data.
 
 
 Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)
@@ -17,17 +17,15 @@ run_wallace(biomodelos=TRUE)
 ```
 2. Wallace will open in your browser. Upload occurrence data in **Occ Data** module. 
 
-Select "User-specified". 
+* Select the "**User-specified**" module, and upload Occurrence CSV: *All_new_records_by_year.csv* 
 
-Upload Occurrence CSV: *All_new_records_by_year.csv* 
+Note: if you want to use the maskranger temporal extract module, this .csv file must include a column "year" with the years for occurrence data. Years should match MODIS data that you will upload in that module.  
 
-Note: if you want to use the maskranger temporal extract module, this csv must include a column "year" with the years for occurrence data. Years should match MODIS data that you will upload in that module.  
+3. Upload an SDM. 
 
-3. Upload SDM. 
+* You can either work through *Wallace* to build a model, or choose the **User SDM** tab. 
 
-You can either work through Wallace to build a model, or choose the **User SDM** component. 
-
-Find the Bassaricyon_neblina.tif file that you downloaded - it is inside the olinguito.zip zipfile.  
+Find the *Bassaricyon_neblina.tif* file that you downloaded - it is inside the olinguito.zip zipfile.  
 
 Upload distribution map (**): "Bassaricyon_neblina.tif" 
 

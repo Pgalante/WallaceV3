@@ -15,11 +15,11 @@ For more information about this component, please see our [video: maskRangeR dem
 library(wallace) 
 run_wallace(biomodelos=TRUE) 
 ```
-2. Wallace will open in your browser. Upload occurrence data in **Occ Data** module. 
+2. Wallace will open in your browser. Upload occurrence data in **Occ Data** tab. 
 
 * Select the "**User-specified**" module, and upload Occurrence CSV: *All_new_records_by_year.csv* 
 
-Note: if you want to use the maskranger temporal extract module, this .csv file must include a column "year" with the years for occurrence data. Years should match MODIS data that you will upload in that module.  
+**Note**: if you want to use the maskRangeR temporal extract module, this .csv file must include a column "year" with the years for occurrence data. Years should match MODIS data that you will upload in that module.  
 
 3. Upload an SDM. 
 
@@ -29,11 +29,11 @@ Find the *Bassaricyon_neblina.tif* file that you downloaded - it is inside the o
 
 Upload distribution map (**): "Bassaricyon_neblina.tif" 
 
-*Note: This is a continuous model prediction for the olinguito. All of the Mask modules can be done with a continuous model prediction, but note that some changeranger functions (area calculations) will require a thresholded model, so you may want to mask a thresholded  model here instead, to use later with changeranger. Make sure any model you upload in User SDM is projected and has the same name as the scientific name of your species occurrence csv file . 
+**Note**: This is a continuous model prediction for the olinguito. All of the *Mask* modules can be done with a continuous model prediction, but note that some changeranger functions (area calculations) will require a thresholded model, so you may want to mask a thresholded  model here instead, to use later with changeranger. Make sure any model you upload in User SDM is projected and has the same name as the scientific name of your species occurrence csv file . 
 
 4. In **Mask** component, select "Mask by Shapefile".  
 
-Upload polygon in shapefile (.shp, .shx, .dbf): Load the SA_Ecoregions_WWF shapefile. 
+Upload polygon in shapefile (.shp, .shx, .dbf): Load the "SA_Ecoregions_WWF" shapefile. 
 
 This is WWF's Terrestrial Ecoregions of the World 
 
@@ -47,7 +47,7 @@ You may see an error message- don't worry. Wallace is giving you a warning:
 ! WARNING:Bassaricyon neblina cloglog | Projection not found for shapefile. It is assume that shapefile datum is WGS84 (**) 
 ```
 
-Select Field: ECO_NAME 
+Select Field: "ECO_NAME" 
 
 First, deselect all. We will select the 5 options for "montane forest". 
 
@@ -61,13 +61,13 @@ Select Attribute:
   - Cordilla Oriental montane forest
   - Northwestern Andean montane forests 
 
-Click Mask. It may take a minute. 
+Click "Mask". It may take a few minutes. 
 
-You can then download your masked projection, continue masking, or move on to ChangeRangeR. 
+You can then download your masked projection, continue masking, or move on to changeRangeR. 
 
-Lets try another Mask module 
+Lets try another *Mask* module 
 
-5. In **Mask** component, select "Expert Polygon".  
+5. In the *Mask* tab, select "Expert Polygon".  
 
 Draw polygon using the polygon drawing tool. 
 
@@ -79,7 +79,7 @@ Note: You can only remove a polygon from a continuous model prediction. You can 
 
 Lets try the last Mask module 
 
-6. In **Mask** component, select "Temporal Extract".  
+6. In the *Mask* tab, select "Temporal Extract".  
 
 Upload environmental rasters for masking distribution: Select the 5 MODIS files: 
 
@@ -89,7 +89,7 @@ Upload environmental rasters for masking distribution: Select the 5 MODIS files:
    - 2009_olinguito_Modis.tif
    - 2010_olinguito_Modis.tif 
 
-Click load. 
+Click "load". 
 
 Select bounds by choosing **2005, 2006, 2008, 2009, 2010**, and deselecting the rest of the  
 

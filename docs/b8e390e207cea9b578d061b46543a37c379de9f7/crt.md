@@ -17,13 +17,13 @@ Instructions:<br>
 library(wallace)
 run_wallace()
 ```
-2. Wallace will open in your browser. Go to the component "*Occ Data*" - and choose **User-specified**. Upload the occurrence data file *All_new_records_by_year.csv* from the **olinguito.zip** found on the [data page](Data.md).
+2. Wallace will open in your browser. Go to the tab "*Occ Data*" - and choose **User-specified**. Upload the occurrence data file *All_new_records_by_year.csv* from the **olinguito.zip** found on the [data page](Data.md).
 
 3. Go to the "*User SDM*" tab. <br>
-(for **ChangeRR** modules, you can either upload an SDM or if you want to you can go through and make your own model in *Wallace* and even mask it in the **Mask** component and then continue to **ChangeRR**)
+(for **ChangeRR** modules, you can either upload an SDM or if you want to you can go through and make your own model in *Wallace* and even mask it in the *Mask* tab and then continue to *ChangeRR*)
 
-Upload the file *Bassaricyon_neblina.tif* in **Upload User SDM**.<br>
-Note: This is a binary - thresholded model. We need a thresholded model for the Areas calculations, but we can use a continuous model for the overlap and time modules.
+Upload the file *Bassaricyon_neblina.tif* in *Upload User SDM*.<br>
+**Note**: This is a binary - thresholded model. We need a thresholded model for the Areas calculations, but we can use a continuous model for the overlap and time modules.
 
 4. Go to the "*ChangeRR*" tab and choose the "**Areas**" Module. Set the options to "Range size" and for the source choose "User SDM". In this module you can also calculate areas from a *Wallace* model, a *Wallace* projected model, or a masked model (made in the "*Mask*" tab). <br>
 View the results tab for the calculation of area.
@@ -32,7 +32,7 @@ View the results tab for the calculation of area.
 
 6. Now choose "AOO" and choose "User SDM" - View the results tab for the calculation of AOO area.
 
-7. you can also calculate these via standard IUCN methods: Go to "EOO" and choose occurrences - and you will see a map plot and in the Results tab with the area calculation for EOO based on a minimum convex polygon around the occurrences (the standard IUCN method). <br> 
+7. You can also calculate these via standard IUCN methods: Go to "EOO" and choose occurrences - and you will see a map plot and in the Results tab with the area calculation for EOO based on a minimum convex polygon around the occurrences (the standard IUCN method). <br> 
 Lets move on to the Overlap module
 
 8. Select the "Overlap" module. Under **Step 1**, choose user SDM and for **Step 2**, choose the *SA_Ecoregions_WWF* shapefile you downloaded - remember to select all three files (.shp, shx, .dbf) - and for fields of interest (**Step 3**), choose "ECO_NAME" as well as all of the "montane forests".

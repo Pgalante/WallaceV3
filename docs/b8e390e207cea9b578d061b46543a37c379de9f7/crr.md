@@ -19,13 +19,13 @@ run_wallace()
 
 2. Wallace will open in your browser. Go to the tab "*Occ Data*" - and choose module "Query Database (Present)". Select the GBIF database, then enter a genus and species for an animal name of your choice - we suggest *Alouatta palliata*. Set the maximum number of occurrences to 100, and click "*Query Database*".
 
-![](img/crrStep2.png)
+![Downloading occurrence data in *Wallace*](img/crrStep2.png)
 
 3. The species' occurrences should appear on the map. Click on "Table" to view detailed information on each point, and remove erroneous points from the set. We suggest *Alouatta palliata* - which has at least one erroneous point in the ocean on the West coast of Costa Rica.
 
 4. Search for two or more additional species that live in the same area/region as the first species. We suggest as two other species: *Alouatta seniculus*, *Ateles belzebuth*. You can view the other species by changing the drop-down menu at the top of the screen. Note that there may be unlikely occurrences for each of these species. Be sure to curate the dataset to remove unlikely records.
 
-![](img/crrStep4.png)
+![Using the multispecies functions](img/crrStep4.png)
 
 5. Continue through the rest of the tabs to build a species distribution model (i.e., through *Visualize*) for each species - remember to check the box "batch" when you see it to run each step for all of your species.  Choose the species' name from the dropdown menu to view the loaded occurrences in the table and again remove any erroneous points (for example, like the one in North America for *Ateles belzebuth*. 
 Follow the Component and Module Guidance (which are similar to help files) in each section for more information - but please skip the "*Env Space*", "*User SDM*", "*Mask*", and "*ChangeRR*" tabs.

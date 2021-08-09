@@ -25,7 +25,7 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
 
 * #### **"Change RR" component (new)**
   + ##### **About:**
-  The Change RR component calculates several indicators relevant for conservation assessments. One indicator is an estimate of range size, AOO, and EOO based on occurrence localities and/or SDMs. Additionally, the percentage of overlap between species distributions with different spatial categories (e.g, protected areas, mining) and estimates of how range size may change over time given various spatial categories (e.g. deforestation, ecological footprint).
+  The *Change RR* tab calculates several indicators relevant for conservation assessments. One indicator is an estimate of range size, AOO, and EOO based on occurrence localities and/or SDMs. Additionally, the percentage of overlap between species distributions with different spatial categories (e.g, protected areas, mining) and estimates of how range size may change over time given various spatial categories (e.g. deforestation, ecological footprint).
   + ##### [Change RR testing instructions](crt.md)
   + ##### Resources
     [**changeRangeR**](pdf/singleSpeciesMetrics.pdf)
@@ -33,7 +33,7 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
 
 * #### **"Alpha Div" component (new)**
   + ##### **About:**
-  The Alpha Div component allows users to calculate diversity indices based on multiple species SDMs (either created in Wallace or user-uploaded). In this version, those indices are species richness and species endemism. This module will be expanded to include other dimensions of diversity; in particular phylogenetic diversity and phylogenetic endemism calculations.
+  The *Alpha Div* tab allows users to calculate diversity indices based on multiple species SDMs (either created in Wallace or user-uploaded). In this version, those indices are species richness and species endemism. This module will be expanded to include other dimensions of diversity; in particular phylogenetic diversity and phylogenetic endemism calculations.
   + ##### [Alpha diversity testing instructions](crr.md)
   + ##### Resources
     [**changeRangeR multiple species tutorial**](pdf/BiodivMetrics.pdf)<br>

@@ -1,7 +1,7 @@
 ### Range Change Through Time Testing instructions.
 
 #### Overview 
-The Change RR component calculates several indicators relevant for conservation assessments. One indicator is an estimate of range size, AOO, and EOO based on occurrence localities and/or SDMs. Additionally, the percentage of overlap between species distributions with different spatial categories (e.g, protected areas, mining) and estimates of how range size may change over time given various spatial categories (e.g. deforestation, ecological footprint).
+The *Change RR* tab calculates several indicators relevant for conservation assessments. One indicator is an estimate of range size, AOO, and EOO based on occurrence localities and/or SDMs. Additionally, the percentage of overlap between species distributions with different spatial categories (e.g, protected areas, mining) and estimates of how range size may change over time given various spatial categories (e.g. deforestation, ecological footprint).
 
 
 Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)

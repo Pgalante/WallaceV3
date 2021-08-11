@@ -6,35 +6,36 @@ If you are a twitter user, **please use our hashtag #WallaceEcoMod** to tweet ab
 * ### **Wallace v3**
   + ##### [Wallace installation instructions](installation_instructions.md)
   + ##### Resources
-    + **Wallace Version 1**<br>
-      [Tutorial](https://wallaceecomod.github.io/vignettes/wallace_vignette.html)
+    + [**Wallace Version 1 Tutorial**](https://wallaceecomod.github.io/vignettes/wallace_vignette.html)
 
 
 * ### Data
-  + Please use the links below for prepared demonstration data <br>
-[**Download prepared Datasets**](Data.md)<br><br>
+  + [**Download prepared Datasets**](Data.md)<br><br>
 
 
 * #### **"Mask" component (new)**
-  + ##### **About:**
-  The *Mask* tab allows users to post-process the SDM you made in Wallace, or imported in the UserSDM tab. Modules include the possibility of masking using remote sensing data, shapefiles or expert opinions and time matching between observations and remote sensing data.
-  + ##### [Mask component testing instructions](mrw.md)
+  *Mask* allows users to post-process the SDM you made in *Wallace* or imported with *UserSDM*.  Users are given the option to mask SDMs using remotely sensed data, user-specified shapefiles, or expert opinions. Additionally, *Mask* allows users to temporally match species occurrence records with remote sensing data (e.g., forest cover).
+  
+  + #### Testing Instructions
+    ##### [Mask component testing instructions](mrw.md)
   + ##### Resources
     [**maskRangeR R package vignette**](https://cmerow.github.io/maskRangeR/maskRangeR_Tutorial.html)
 
 
 * #### **"Change RR" component (new)**
-  + ##### **About:**
-  The *Change RR* tab calculates several indicators relevant for conservation assessments. One indicator is an estimate of range size, AOO, and EOO based on occurrence localities and/or SDMs. Additionally, the percentage of overlap between species distributions with different spatial categories (e.g, protected areas, mining) and estimates of how range size may change over time given various spatial categories (e.g. deforestation, ecological footprint).
-  + ##### [Change RR testing instructions](crt.md)
+  *Change RR* allows users to calculate several indicators relevant for conservation assessments based on occurrence localities and/or SDMs. Such indicators include range size estimates and IUCN Area of Occupancy (AOO) and Extent of Occurrence (EOO). Additionally, *Change RR* allows users to calculate the percentage of overlap between species' distributions and different spatial features (e.g, protected areas, mining) and estimate how range size may change over time given various spatial processes (e.g. deforestation, ecological footprint).
+  
+  + ##### Testing Instructions
+    ##### [Change RR testing instructions](crt.md)
   + ##### Resources
     [**changeRangeR**](pdf/singleSpeciesMetrics.pdf)
 
 
 * #### **"Alpha Div" component (new)**
-  + ##### **About:**
-  The *Alpha Div* tab allows users to calculate diversity indices based on multiple species SDMs (either created in Wallace or user-uploaded). In this version, those indices are species richness and species endemism. This module will be expanded to include other dimensions of diversity; in particular phylogenetic diversity and phylogenetic endemism calculations.
-  + ##### [Alpha diversity testing instructions](crr.md)
+  *Alpha Div* allows users to calculate diversity indices based on multiple species' SDMs (either created in *Wallace* or user-uploaded via *UserSDM*). Currently, users can calculate species richness and species endemism. However, we plan to include tools to calculate metrics reflecting other dimensions of diversity; in particular phylogenetic diversity and phylogenetic endemism calculations.
+  
+    + ##### Testing Instructions
+    ##### [Alpha diversity testing instructions](crr.md)
   + ##### Resources
     [**changeRangeR multiple species tutorial**](pdf/BiodivMetrics.pdf)<br>
     [**changeRangeR diversity metrics using sparse matrices tutorial**](pdf/Diversity_Metrics_Using_Sparse_Matrices.pdf)

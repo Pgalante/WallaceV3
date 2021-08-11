@@ -1,8 +1,7 @@
 ## Alpha diversity in Wallace Testing Instructions
 
 #### Overview
-The *Alpha Div* tab allows users to calculate diversity indices based on multiple species SDMs (either created in Wallace or user-uploaded). In this version, those indices are species richness and species endemism. This module will be expanded to include other dimensions of diversity; in particular phylogenetic diversity and phylogenetic endemism calculations. 
-
+  *Alpha Div* allows users to calculate diversity indices based on multiple species' SDMs (either created in *Wallace* or user-uploaded via *UserSDM*). Currently, users can calculate species richness and species endemism. However, we plan to include tools to calculate metrics reflecting other dimensions of diversity; in particular phylogenetic diversity and phylogenetic endemism calculations.
 
 Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)
 

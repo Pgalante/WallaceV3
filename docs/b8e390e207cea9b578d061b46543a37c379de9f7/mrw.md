@@ -1,8 +1,8 @@
 ## Mask in Wallace  
 
 #### Overview
-The *Mask* tab allows users to post-process the SDM you made in Wallace, or imported in the UserSDM tab. Modules include the possibility of masking using remote sensing data, shapefiles or expert opinions and time matching between observations and remote sensing data.
-
+  *Mask* allows users to post-process the SDM you made in *Wallace* or imported with *UserSDM*.  Users are given the option to mask SDMs using remotely sensed data, user-specified shapefiles, or expert opinions. Additionally, *Mask* allows users to temporally match species occurrence records with remote sensing data (e.g., forest cover).
+  
 
 Before you begin, please follow the [Wallace v3 installastion instructions](installation_instructions.md) and [Download the prepared datasets](Data.md)
 

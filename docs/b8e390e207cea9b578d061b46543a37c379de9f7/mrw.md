@@ -82,7 +82,7 @@ If you also wish to test **_ChangeRR_** we suggest you use a thresholded model h
 
   * Scroll down to **Step 2: Select Field:** and select "*ECO_NAME*". 
   
-  * First, deselect all names, and then select the 5 available options for "*montane forest*". 
+  * Open the drop-down **Select Category** menu. First click "*Deselect all*" and then select the 5 available options "montane forests".   
 
 **NOTE**: Blue sections will be removed, yellow will be kept. 
 

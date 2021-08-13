@@ -45,7 +45,7 @@ run_wallace(biomodelos=TRUE)
 
   * Select the "**User-specified**" option on the side menu and upload the *All_new_records_by_year.csv* occurrence data file. These data will be used to test the **_Mask: temporal extract_** module.    
 
-![Occ Data component](img/mrwOccData.png){width=90%}  
+![](img/mrwOccData.png)
 
   * **Note**: When attempting to use the **Temporal extract** module with your own data, you must ensure that the occurrence .csv file provided includes a "**year**" column, with dates matching those of the MODIS data that you will upload in that module.  
   
@@ -57,7 +57,7 @@ run_wallace(biomodelos=TRUE)
 
   * Click **Load SDM**. This should upload a continuous model for *Brassaricyon neblina*, a small carnivore known as the Olinguito.<br>   
 
-![User SDM component](img/mrwLoadUserSDM.png){width=90%}
+![](img/mrwLoadUserSDM.png)
 
 
 **Note**: All of the **_Mask_** modules can be executed using continuous model predictions. However, some **_ChangeRR_** functions (e.g., area calculations) will require a binary (thresholded) models.   
@@ -105,13 +105,13 @@ If you also wish to test **_ChangeRR_** we suggest you use a thresholded model h
 
   * Scroll down to **Step 1: Choose Input Polygon** and select *Draw Polygon* from the drop-down menu.<br>  
   
-  ![Mask component draw polygon](img/mrwExpertPolygon1.png){width=90%}
+  ![](img/mrwExpertPolygon1.png)
 
   * Click on the polygon drawing tool on the map to create your own polygon. To close the polygon, make sure you click on the first vertex created. 
 
   * Once you have created a polygon to your satisfaction, click the "**Create**" button.<br> 
 
-![Mask component create polygon](img/mrwExpertPolygon2.png){width=90%}<br>
+![](img/mrwExpertPolygon2.png)<br>
 
   * Scroll down to **Step 2: Choose action** and select "Remove polygon", then click the "**Mask**" button.  
   
@@ -135,7 +135,7 @@ If you also wish to test **_ChangeRR_** we suggest you use a thresholded model h
   
   * Click the "**Load**" button.<br>
 
-![Mask component upload rasters](img/mrwTempMatch1.png){width=90%}  
+![](img/mrwTempMatch1.png)
 
   * Scroll down to **Step 2: Bounds** to select the temporal time frame for which we will match our occurrence data. 
   
@@ -145,22 +145,22 @@ If you also wish to test **_ChangeRR_** we suggest you use a thresholded model h
 
   * Click the "**Get Bounds**" button to get the distribution of MODIS VCF values corresponding to your occurrence points. These results can guide the selection of the upper and lower bounds for these values to create the SDM mask.<br>
 
-![Mask component get bounds](img/mrwTempMatch3.png)  
+![](img/mrwTempMatch3.PNG)  
 
   * Scroll down to **Step 3: Mask** and select the *2010_olinguito_Modis.tif* raster. This raster will be used to create a masking layer based on user-defined upper and lower MODIS VCF values. 
 
   * Use the sliding bar to select upper and lower bounds for the MODIS VCF values you consider reasonable for the species. Note, that the Olinguito is strictly associated to cloud forests.<br> 
 
-![Mask component set bounds](img/mrwTempMatch4.png)  
+![](img/mrwTempMatch4.png)  
 
   * Click "**Mask**" to remove areas from your SDM with MODIS VCF values that are not within the bounds of what is considered suitable for the Olinguito.<br> 
 
-![Mask component masking](img/mrwTempMatch5.PNG){width=90%} <br>
+![](img/mrwTempMatch5.PNG){width=90%} <br>
 
 ### 6. Download Mask<a name = "Download Mask"> </a>
 
   * To download the masked SDM, navigate to the "**Download**" tab in the results panel. Use the drop-down menu to select your preferred output file type and click on "**Mask file**" to download.<br>
 
-![Mask component download](img/mrwDownloadMask.png)  
+![](img/mrwDownloadMask.png)  
 
   * If you want to continue testing **_ChangeRR_**, you can navigate to it on the top menu bar and follow [testing instructions](crr.md). 

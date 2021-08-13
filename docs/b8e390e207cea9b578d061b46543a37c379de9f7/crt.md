@@ -41,7 +41,7 @@ run_wallace()
 
   * Select the "**User-specified**" option on the side menu and upload the *All_new_records_by_year.csv* occurrence data file.  
 
-![](img/mrwOccData.png){width=90%}  
+![](img/mrwOccData.png) 
   
 ####  Upload an SDM  
 

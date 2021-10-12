@@ -47,7 +47,7 @@ library(changeRangeR)
 
   + #### B. Install ENMeval
 ```{r}
-install.packages("EMMeval")
+install.packages("ENMeval")
 ```
 
   + #### C. Install the development version of Wallace
@@ -68,9 +68,9 @@ It incorporates several components for conservation analyses based on functional
 - Mapping species richness and species endemism
 
 #### Important note!
-After testing the development versions of Wallace, if you want to go back to the older version, you need to reinstall Wallace and ENMeval from CRAN. You can use the following code:
+After testing the development versions of Wallace, if you want to go back to the older version, you need to reinstall Wallace  from CRAN. You can use the following code:
 ```{r}
-install.packages(c("wallace", "ENMeval"))
+install.packages("wallace")
 ```
 
 ### Report bugs

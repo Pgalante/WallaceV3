@@ -163,4 +163,4 @@ If you also wish to test **_ChangeRR_** we suggest you use a thresholded model h
 
 ![](img/mrwDownloadMask.png)  
 
-  * If you want to continue testing **_ChangeRR_**, you can navigate to it on the top menu bar and follow [testing instructions](crr.md). 
+  * If you want to continue testing **_ChangeRR_**, you can navigate to the *_ChangeRR_* tab and follow [testing instructions](crt.md). 

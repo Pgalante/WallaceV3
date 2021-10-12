@@ -62,7 +62,7 @@ run_wallace(biomodelos=TRUE)
 
 **Note**: All of the **_Mask_** modules can be executed using continuous model predictions. However, some **_ChangeRR_** functions (e.g., area calculations) will require a binary (thresholded) models.   
 
-If you also wish to test **_ChangeRR_** we suggest you use a thresholded model here instead. Make sure any model you upload in **_User SDM_** is projected and has the same name as the scientific name of your species occurrence csv file. <br>  
+If you also wish to test **_ChangeRR_** we suggest you use a thresholded model here instead. Available in the data downloads are two versions of the *Bassaricyon_neblina.tif* file. The version within the olinguito zipfile is continuous. Make sure any model you upload in **_User SDM_** is projected and has the same name as the scientific name of your species occurrence csv file. <br>  
 
 ### 3. Test: Masking SDMs with shapefiles <a name = "Test: Masking SDMs with shapefiles"> </a>
 
@@ -70,7 +70,7 @@ If you also wish to test **_ChangeRR_** we suggest you use a thresholded model h
   
   * Select **Mask by Shapefile** option in the sidebar and upload the *SA_Ecoregions_WWF* shapefile. This is WWF's Terrestrial Ecoregions of the World.Note that you must upload **all three** files (.shp, .shx, .dbf).  
 
-**INSERT IMAGE OF WHERE THE COMPONENT & MODULE ARE**
+![](img/maskShapefileWallace.png)
 
   * Click "**Load**". 
   
@@ -159,7 +159,7 @@ If you also wish to test **_ChangeRR_** we suggest you use a thresholded model h
 
 ### 6. Download Mask<a name = "Download Mask"> </a>
 
-  * To download the masked SDM, navigate to the "**Download**" tab in the results panel. Use the drop-down menu to select your preferred output file type and click on "**Mask file**" to download.<br>
+  * To download the masked SDM, navigate to the "**Save**" tab in the results panel. Use the drop-down menu to select your preferred output file type and click on "**Mask file**" to download.<br>
 
 ![](img/mrwDownloadMask.png)  
 

@@ -31,7 +31,7 @@ Please find instructions for beta testing of the new functionalities within the 
   
 ```{r}
 library(wallace) 
-run_wallace(biomodelos=TRUE) 
+run_wallace() 
 ```
 
   * Wallace should automatically open in your default browser (e.g., Google Chrome, Safari, Firefox).<br>
